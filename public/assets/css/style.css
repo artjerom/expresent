@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.paint {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.reveal .progress {
+    height: 6px;
+    background-color: rgba(30, 30, 30, .2);
+}
+
+.reveal .progress span {
+    background-color: #222;
+}

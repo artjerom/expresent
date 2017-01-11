@@ -1,1 +1,18 @@
-h2 admin
+.ui.large.menu
+    a.active.item(href='/admin') Главная
+    a.item(href='/admin/all') Список презентаций
+    .right.menu
+        .item
+            a.ui.positive.button(href='/') Создать
+        .item
+            a.ui.primary.button(href='/') Просмотр
+
+.ui.container
+    h2 Презентации
+        h4= dataPresent
+    h2 Загрузка изображений
+    form(method='POST' id='formUpload' action='upload' enctype="multipart/form-data")
+        .ui.small.basic.icon.buttons
+            input(type='file' name='upImages' multiple id='upImages').ui.button
+            input(type='submit' value='Отправить').positive.ui.button.disabled
+    ul.ui.items#jsImages

@@ -1,0 +1,36 @@
+[
+  {
+    "test": [
+      {
+        "imgUrl": "/path/to/img",
+        "order": 1,
+        "content": "content ...",
+        "color": "#fff"
+      },
+      {
+        "imgUrl": "/path/to/img",
+        "order": 2,
+        "content": "content two slide ...",
+        "color": "red"
+      }
+    ]
+  },
+
+  {
+    "about": [
+      {
+        "imgUrl": "/path/to/img",
+        "order": 1,
+        "content": "content ...",
+        "color": "#fff"
+      },
+      {
+        "imgUrl": "/path/to/img",
+        "order": 2,
+        "content": "content two slide ...",
+        "color": "red"
+      }
+    ]
+  }
+
+]
